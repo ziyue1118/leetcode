@@ -28,6 +28,5 @@ public class maxDepthOfBinaryTree {
     	d.left = f;
     	maxDepthOfBinaryTree mdbt = new maxDepthOfBinaryTree();
     	System.out.println(mdbt.maxDepth(a));
-
-    }
+	}
 }

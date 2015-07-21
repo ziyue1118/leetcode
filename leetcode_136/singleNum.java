@@ -1,4 +1,4 @@
-public class singleNum {
+public class SingleNum {
     public int singleNumber(int[] A) {
         // Note: The Solution object is instantiated only once and is reused by each test case.
         int target = 0;
@@ -8,7 +8,7 @@ public class singleNum {
         return target;
     }
     public static void main(String[] args){
-        singleNum sN = new singleNum();
+        SingleNum sN = new SingleNum();
         int[] data = {2,3,2,3,4,5,5,6,6,7,7};
         System.out.println(sN.singleNumber(data));
     }

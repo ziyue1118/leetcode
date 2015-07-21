@@ -1,4 +1,4 @@
-public class sameTree {
+public class SameTree {
     public boolean isSameTree(TreeNode p, TreeNode q) {
         // Note: The Solution object is instantiated only once and is reused by each test case.
         if (p == null && q == null){
@@ -29,7 +29,7 @@ public class sameTree {
         TreeNode c2 = new TreeNode(4);
         a2.left = b2;
         a2.right = c2;
-        sameTree st = new sameTree();
+        SameTree st = new SameTree();
         System.out.println(st.isSameTree(a,a1));
         System.out.println(st.isSameTree(a,a2));
     }

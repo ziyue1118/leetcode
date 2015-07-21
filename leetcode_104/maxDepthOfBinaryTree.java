@@ -1,4 +1,4 @@
-public class maxDepthOfBinaryTree {
+public class MaxDepthOfBinaryTree {
     public int maxDepth(TreeNode root) {
         if (root == null){
             return 0;
@@ -25,7 +25,7 @@ public class maxDepthOfBinaryTree {
         b.left = d;
         b.right = e;
         d.left = f;
-        maxDepthOfBinaryTree mdbt = new maxDepthOfBinaryTree();
+        MaxDepthOfBinaryTree mdbt = new MaxDepthOfBinaryTree();
         System.out.println(mdbt.maxDepth(a));
     }
 }

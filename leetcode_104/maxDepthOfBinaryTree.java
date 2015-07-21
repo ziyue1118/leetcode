@@ -6,14 +6,14 @@ public class maxDepthOfBinaryTree {
             return Math.max(maxDepth(root.left), maxDepth(root.right)) + 1;
         }
     }
-    //			a
-    //		   / \
-    //        b   c
-    //       / \ 
-    //      d   e
-    //     /
-    //    f
     public static void main(String[] args){
+        //          a
+        //         / \
+        //        b   c
+        //       / \
+        //      d   e
+        //     /
+        //    f
         TreeNode a = new TreeNode(1);
         TreeNode b = new TreeNode(1);
         TreeNode c = new TreeNode(1);

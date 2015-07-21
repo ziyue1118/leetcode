@@ -2,7 +2,7 @@ public class SingleNum {
     public int singleNumber(int[] A) {
         // Note: The Solution object is instantiated only once and is reused by each test case.
         int target = 0;
-        for(int i=0;i<A.length;i++){
+        for(int i = 0; i < A.length; i++){
             target = target ^ A[i];
         }
         return target;
